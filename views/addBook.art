@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>addBook</title>
+</head>
+<body>
+<form action="http://localhost:3000/addBook" method="post">
+    <label for="name">书名</label>
+    <input type="text" name="name" id="name">
+    <label for="author">作者</label>
+    <input type="text" name="author" id="author">
+    <label for="category">分类</label>
+    <input type="text" name="category" id="category">
+    <label for="desc">描述</label>
+    <input type="text" name="desc" id="desc">
+    <input type="submit" value="submit"/>
+</form>
+
+</body>
+</html>

@@ -1,0 +1,21 @@
+.title{
+    text-align: center;
+    background-color: azure;
+    line-height: 50px;
+    height: 50px;
+    font-size:20px;
+}
+.content{
+    background-color: aliceblue;
+}
+.content table{
+    width: 100%;
+}
+.content table tr{
+    border: 1px solid #aaa;
+}
+.content table th,td{
+    border: 1px solid #ccc;
+    height: 36px;
+    line-height: 36px;
+}

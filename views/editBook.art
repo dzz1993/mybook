@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>editBook</title>
+</head>
+<body>
+<form action="http://localhost:3000/editBook" method="post">
+    <input type="hidden" name="id" id="id" value="{{id}}">
+    <label for="name">书名</label>
+    <input type="text" name="name" id="name" value="{{name}}">
+    <label for="author">作者</label>
+    <input type="text" name="author" id="author" value="{{author}}">
+    <label for="category">分类</label>
+    <input type="text" name="category" id="category" value="{{category}}">
+    <label for="desc">描述</label>
+    <input type="text" name="desc" id="desc" value="{{desc}}">
+    <input type="submit" value="submit"/>
+</form>
+
+</body>
+</html>
